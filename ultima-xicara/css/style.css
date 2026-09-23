@@ -37,7 +37,6 @@ nav ul a{
     height: 100%;
 }
 
-/* acima de 576px (breakpoint do navbar-expand-sm) o menu fica em linha */
 @media (min-width: 577px) {
     nav ul, li {
         display: flex;
@@ -140,17 +139,7 @@ footer {
     filter: invert(1);
 }
 
-/* Form */
-.form-control:focus {
-    border-color: #D4A373;
-    box-shadow: 0 0 0 .2rem rgba(212,163,115,.25);
-}
 
-/* ==========================
-   Media queries - Responsivo
-   ========================== */
-
-/* Tablets e celulares grandes (até 768px) */
 @media (max-width: 768px) {
     .hero {
         flex-direction: column;
@@ -193,25 +182,3 @@ footer {
     }
 }
 
-/* Celulares pequenos (até 480px) */
-@media (max-width: 480px) {
-    .navbar-brand img {
-        width: 32px !important;
-    }
-
-    .hero h1 {
-        font-size: 1.3rem;
-    }
-
-    .hero button {
-        width: 100%;
-    }
-
-    .carousel-item {
-        height: 170px;
-    }
-
-    .content h2 {
-        font-size: 1.2rem;
-    }
-}
